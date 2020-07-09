@@ -137,6 +137,16 @@ h1 {
   font-family: 'Hind Siliguri' !important;
 }
 
+.container  a {
+  text-decoration: none;
+  color: rgb(227, 221, 221);
+}
+
+.container a:hover {
+  color: rgb(179, 177, 177);
+  transition: ease-in-out .1s;
+}
+
 .container.one {
   background-image: url('/images/thebeach_main.jpg');
   background-size: cover;
@@ -187,6 +197,18 @@ h1 {
   width: 50%;
   margin: 15px auto;
   padding: 1% 0;
+}
+
+/* Footer */
+
+footer {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  font-family: 'Hind Guntur',
+    sans-serif;
+  background: #313132;
+  color: #bbbbbb;
 }
 
 @media (max-width: 860px) {
