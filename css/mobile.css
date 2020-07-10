@@ -1,0 +1,98 @@
+@media (max-width: 500px) {
+  header {
+    position: static;
+    display: block;
+  }
+
+  header ul {
+    display: block;
+  }
+
+  header ul li {
+    display: block;
+  }
+
+  header ul li ul {
+    width: 70%;
+    z-index: 1;
+  }
+
+  header ul li {
+    border-right: none;
+  }
+
+  .brand {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Showcase */
+
+  .container {
+    height: 25vh;
+    background-attachment: scroll;
+  }
+
+  .container.one {
+    background-image: url('/mobimages/beach_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container.two {
+    background-image: url('/mobimages/lithuania_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container.three {
+    background-image: url('/mobimages/portugal_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container.four{
+    background-image: url('/mobimages/reflections_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container.five{
+    background-image: url('/mobimages/sunsets_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .container.six{
+    background-image: url('/mobimages/about_m.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+  }
+
+  /* GALLERIES */
+
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /* About */
+
+  section#about-page  {
+    font-size: 0.5rem;
+  }
+
+  .about-container {
+    padding: 4rem;
+  } 
+  /* footer */
+
+  footer {
+    text-align: center;
+  }
+}

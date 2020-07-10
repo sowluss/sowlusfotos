@@ -1,0 +1,28 @@
+/* Gallery */
+
+@media (max-width: 866px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  /*  Showcase */
+
+  .container {
+    height: 100vh;
+    background-attachment: scroll;
+  }
+
+  .text h1 {
+    font-size: 4rem;
+  }
+
+  section#about-page  {
+    font-size: 0.6rem;
+  }
+
+  .about-container {
+    padding: 7rem;
+  } 
+}
